@@ -25,23 +25,6 @@ p {
     color: dimgray;
 }
 
-
-.link-button {
-    font-weight: 200px;
-}
-
-.header-section {
-    height: 600px;
-    padding-bottom: 140px;
-}
-
-.header-section {
-    background-image: url('images/header-bg1.png');
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-
 .half-width {
     width: 40%;
     float: left;
@@ -51,8 +34,19 @@ p {
 }
 
 .half-width img {
-    width: 90%;
+    width: 100%;
     margin-top: 40px;
+}
+
+.header-section {
+    background-image: url('images/header-bg1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.header-section {
+    height: 600px;
+    padding-bottom: 140px;
 }
 
 
@@ -113,6 +107,7 @@ text-align: center;
 
 .footer-section h2, h5, h6, p {
     text-align: center;
+    
 }
 
 .footer-box {
@@ -120,11 +115,14 @@ text-align: center;
     width: 50%;
     background-color: #F24C7C;
     margin: 0 auto;
+    border-radius: 10px;
    
 }
 
-.footer-box h5, p {
-    margin: 30px;
+.footer-box h5, h4 {
+    padding-top: 25px;
+    color: white;
+    text-align: center;
 }
 
 
